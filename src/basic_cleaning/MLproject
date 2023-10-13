@@ -6,28 +6,28 @@ entry_points:
     parameters:
 
       input_artifact:
-        description: ## ADD DESCRIPTION
+        description: name of input artifact
         type: string
 
       output_artifact:
-        description: ## ADD DESCRIPTION
+        description: name of output artifact
         type: string
 
       output_type:
-        description: ## ADD DESCRIPTION
+        description: what type of file is the output artifact
         type: string
 
       output_description:
-        description: ## ADD DESCRIPTION
+        description: describe the output artifact
         type: string
 
       min_price:
-        description: ## ADD DESCRIPTION
-        type: string
+        description: set the minimum price to exclude outliers
+        type: intger
 
       max_price:
-        description: ## ADD DESCRIPTION
-        type: string
+        description: set the max price to exclude outliers
+        type: intger
 
 
     command: >-
